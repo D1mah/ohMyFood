@@ -38,8 +38,29 @@
     #brand{
         font-family: 'Shrikhand';
     }
+ 
+    .geoloc{
+        display:flex;
+        justify-content: center;
+        background-color: #eaeaea;
+    }
+    .icon_text{
+    display:flex;
+    justify-content: center;
+ }
+ 
+ .icon{
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+
+ .text_menu{
+    margin-left:15px;
+ }
+ 
     
-   
 
 
 }
