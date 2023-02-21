@@ -52,18 +52,172 @@
     font-family: 'Roboto';
   }
 
-    header div{
-        display: flex;
-        justify-content: center;
-      
-    }
-    #brand{
+   /* Pages Menu */
+            /* menu-header */
+
+    
+   .menu_header{
+    display:flex;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-bottom:12px;    
+  }  
+
+  .home_header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom:12px; 
+  }
+   
+  .brand_menu {
+        flex:1;
         font-family: 'Shrikhand';
-        font-size: 150%;
-        margin-top: 17px;
-        margin-bottom:12px
+        /* display:flex;
+        flex-direction: row;
+        justify-content: center; */
+        font-size: 180%;
+        padding-top: 0px;
+        padding-bottom:0px;
     }
+
+.third_col{
+    flex:1;
+}
+
+/* brand mis la pour faciliter le rangement, mais appartient à la home page */
+    .brand{
+    font-family: 'Shrikhand';
+    font-size: 180%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+
+
+    .brand_menu p{
+        margin-top: 0px;
+        margin-bottom:0px;
+        margin-left:-20px;
+    }
+
+.arrow_header{
+  flex:1;
+    font-size: 130%;
+  justify-self: left;
+  align-self: center;
+  padding-left: 20px;
+ }
  
+ 
+ 
+            /* Menu-body  */
+
+.menu{
+background-color: #f6f6f6;
+padding-top: 0px;
+padding-bottom: 10px;
+border-radius: 45px 45px 0 0;
+}
+
+
+.img{
+    position: relative;
+    z-index:-1;
+     margin-bottom: -58px;
+}
+.img_size{
+ width:100%;  
+}
+
+.restaurant_name{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:5px;
+    padding-left:10px ;
+    padding-right: 40px;
+    
+}
+
+.restaurant_name h1{
+    font-family: 'Shrikhand';
+    font-size:200% ;
+}
+
+.restaurant_name i{
+    
+    font-size: 160%;
+    font-weight: 30;
+}
+
+
+.categorie {
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20px ;
+padding-left: 15px;
+padding-right:15px;
+}
+.categorie h2{
+font-weight:lighter ;
+padding-bottom: 10px;
+}
+
+span{
+    text-decoration: underline 3px solid #99E2D0;
+    text-underline-offset: 10px;
+}
+
+h3{
+margin-top: 7px;
+margin-bottom:0px;
+}
+.command{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    padding-top: 15px;
+}
+
+.menu_btn{
+    display:flex ;
+    flex-direction:column;
+    align-items: flex-start;
+    background-color:#ffffff ;
+    border-radius: 17px;
+    border:1px #ffffff solid;
+    margin-bottom: 15px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.price{
+font-weight: bold;
+}
+ .sub_txt{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+ }
+ .sub_txt p{
+    margin-bottom: 7px;
+    margin-top: 7px;
+ }
+
+
+
+ /* Page Home */
     section{
         width:100%;
         padding-top:35px;
@@ -84,7 +238,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: 120%;
-
  }
 
  .text_loc{
@@ -102,9 +255,7 @@ font-size: 120%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content:center ; */
         text-align : center;
-        padding-bottom: 40px;
         padding-top: 30px;
 
     }
@@ -127,8 +278,8 @@ font-size: 120%;
     padding-left: 17px;
     padding-right: 17px;
     background-color:#9356DC ;
-    border:#9356DC
-    
+    border:#9356DC;
+    margin-bottom: 50px;
 
 }
 /* Fonctionnement */
@@ -175,6 +326,7 @@ box-shadow:0px 3px 4px  grey ;
 
 .text_menu{
     margin-left:15px;
+    padding-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,7 +352,6 @@ padding-bottom: 40px;
     width:310px;
     height:230px ;
     border: 1px solid #f6f6f6;
-    /* background-color:#ffffff; */
     border-radius: 17px ;
     box-shadow:0px 2px 2px lightgray ;
 }
@@ -215,14 +366,9 @@ padding-bottom: 40px;
 }
 
 /* position: absolute; */
-/* padding-bottom:;
-}
 
-/* .img_size{
-    max-width:100%;
-    height: auto;
-    border-radius: 17px 17px 0 0;
-} */
+
+
 
 #example_btn1{
     background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat;
@@ -285,6 +431,7 @@ padding-bottom: 40px;
     margin-top:0px ;
     margin-bottom: 0px;
 }
+
 .description_icon{
     display:flex;
     flex-direction: row;
@@ -303,8 +450,6 @@ padding-bottom: 40px;
 
 footer{
     padding: 7px 0px 40px 20px;
-    /* padding-top: 7px;
-    padding-left: 10px; */
     display:flex;
     flex-direction: column;
     align-items: flex-start;
