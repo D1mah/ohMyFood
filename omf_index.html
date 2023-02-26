@@ -2,18 +2,18 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/omf.css" />
+    <link rel="stylesheet" href="styles/css/omf.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ohmyfood</title>
     
 </head>
 
-<header class="menu_header"><p class="brand">ohmyfood</p></header>
+<header class="header"><p class="header__title">ohmyfood</p></header>
 
 <body>
-    <div class="geoloc"><div class="icon_text"> <div class="icon"><i class="fa-solid fa-location-dot"></i></div ><div class="text_loc"><p>Paris, Belleville</p></div></div></div>
+    <div class="where"><div class="where__content"> <div class="icon"><i class="fa-solid fa-location-dot"></i></div ><div class="where__content-txt"><p>Paris, Belleville</p></div></div></div>
     
-    <section class="explore_menu">
+    <section class="explore">
         <h1>Réservez le menu qui vous convient</h1>
         <p> Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
         <button class="pink_btn ">Explorer nos restaurants</button>
@@ -22,80 +22,80 @@
 <section class="choices">
         <h1>Fonctionnement</h1>
 
-        <button class="btn"> <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div> <div class="text_menu">
-            <p>Choisissez un restaurant</p>
-        </div></button>
+        <button class="choices__btn"><div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div> 
+            <p class= "choices__btn-txt">Choisissez un restaurant</p>
+        </button>
         
         
-        <button class="btn"><div class="icon"><i class="fa-sharp fa-solid fa-list-ul"></i></div><div class="text_menu">
-             <p>Composez votre menu</p>
-        </div></button>
+        <button class="choices__btn"><div class="icon"><i class="fa-sharp fa-solid fa-list-ul"></i></div>
+             <p class="choices__btn-txt">Composez votre menu</p>
+        </button>
         
-        <button class="btn"><div class="icon"><i class="fa-solid fa-store"></i></div><div class="text_menu">
-            <p>Dégustez au restaurant</p>
-        </div></button>
+        <button class="choices__btn"><div class="icon"><i class="fa-solid fa-store"></i></div>
+            <p class="choices__btn-txt">Dégustez au restaurant</p>
+        </button>
     </section>
     
+
     <section class= "restaurant">
-        
-        
+    
         <h1>Restaurants</h1>
-        <div class= "examples">
+        <div class= "example">
             
-            <a href="" class="example_btn">
-                <div id="example_btn1" class="example_img">
+            <a href="" class="example__btn">
+                <div class="example__btn-img example__btn-1">
                     <!-- <div class="example_img"><img class="img_size" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût"> </div> -->
                     <!-- <div class="newness"><p>Nouveau</p></div> -->
-                    <div class="description">
-                        <div class="description_text">
+                    <div class="example__description">
+                        <div class="example__description-text">
                             <h2>La palette du goût</h2>
                             <p>Ménilmontant</p>
                         </div>
-                        <div class="description_icon"><i class="fa-regular fa-heart"></i></div>
+                        <div class="example__description-icon"><i class="fa-regular fa-heart"></i></div>
                     </div>
                 </div>
                 
             </a>
             
             
-            <a href="" class="example_btn">
-                <div id="example_btn2" class="example_img">
+            <a href="" class="example__btn">
+                <div class="example__btn-img example__btn-2">
 
                     <!-- <div class="example_img"><img class="img_size" src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée"></div>
                     </div> -->
                     <!-- <div class="newness"><p>Nouveau</p></div> -->
-                    <div class="description">
-                        <div class="description_text">
+                    <div class="example__description">
+                        <div class="example__description-text">
                             <h2>La note enchantée</h2>
                             <p>Charonne</p>
                         </div>
-                        <div class="description_icon"><i class="fa-regular fa-heart"></i></div>
+                        <div class="example__description-icon"><i class="fa-regular fa-heart"></i></div>
                     </div>
                     </div>
             </a>            
             
-            <a href="" class="example_btn">
-                <div id="example_btn3"  class="example_img">
+            <a href="" class="example__btn">
+                <div class="example__btn-img example__btn-3">
                     <!-- <div class="example_img"><img class="img_size" src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française"></div> -->
-                    <div class="description">
-                        <div class="description_text">
+                    <div class="example__description">
+                        <div class="example__description-text">
                             <h2>A la française</h2>
                             <p>Cité Rouge</p>
                         </div>
-                        <div class="description_icon"><i class="fa-regular fa-heart"></i></div>
+                        <div class="example__description-icon"><i class="fa-regular fa-heart"></i></div>
                     </div>
                 </div>  
             </a>
             
-            <a href="" class="example_btn">
-                <div id="example_btn4"  class="example_img">
+            <a href="" class="example__btn">
+                <div class="example__btn-img example__btn-4">
                     <!-- <div class="example_img"><img class="img_size" src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens"></div> -->
-                    <div class="description">
-                        <div class="description_text">
+                    <div class="example__description">
+                        <div class="example__description-text">
                             <h2>Le délice des sens</h2>
                             <p>Folie-Méricourt</p>
                         </div>
-                        <div class="description_icon"><i class="fa-regular fa-heart"></i></div>
+                        <div class="example__description-icon"><i class="fa-regular fa-heart"></i></div>
                     </div>
                 </div>
             </a>
@@ -105,13 +105,13 @@
     
 </body>
 
-<footer>
-    <div><h2>ohmyfood</h2></div>
+<footer class="footer">
+    <h2>ohmyfood</h2>
     
     <a href="#"><div class="footer_icon"><i class="fa-solid fa-utensils"></i></div><p>Proposer un restaurant</p></a> 
     
     
-    <a href="#"><div class="footer_icon"><i class="fa-solid fa-handshake-angle"></i></div><p>Devenir partenaire</p></a>
+    <a href="#"><div class="footer__icon"><i class="fa-solid fa-handshake-angle"></i></div><p>Devenir partenaire</p></a>
     
     <a href="#">Mentions légales</a>
     

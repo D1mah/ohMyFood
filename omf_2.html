@@ -2,57 +2,57 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/omf.css" />
+    <link rel="stylesheet" href="styles/css/omf.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ohmyfood</title>
     
 </head>
 
-<header><div class="menu_header">
-    <div class="arrow_header"><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
-    <div class="brand_menu"><p>ohmyfood</p></div>
-    <div class="third_col"></div>
-</div></header>
+<header class="header">
+    <div class="header__arrow"><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
+    <div class="header__title"><p>ohmyfood</p></div>
+    <div class="header__third-col"></div>
+</header>
 
 <body>
     
-    <div class="img_note"><img class="img_size" src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée"></div>
+    <div class="img__note-enchantee"><img class="img--size" src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée"></div>
     
     <section class="menu">
-        <div class="restaurant_name">
+        <div class="menu__name">
             <h1>La note enchantée</h1>
             <i class="fa-regular fa-heart"></i>
         </div>
         
-        <div class="categorie">
+        <div class="menu__categorie">
             <h2><span class="underline">ENTR</span>EES</h2>
             
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Ravioles de foie gras</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Accompagnés de leur crème à la truffee</p>
                     <div class="price">25€</div>
                 </div>
             </button>
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Caviar osciètre</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Sur blini à la farine de blé noir</p>
                     <div class="price">35€</div>
                 </div>
             </button>
 
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Homard et espuma de potiron</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Mariné aux zestes d'orange</p>
                     <div class="price">20€</div>
                 </div>
             </button>
 
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Foie gras de canard cuit entier</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Confiture de figue et pain toasté</p>
                     <div class="price">35€</div>
                 </div>
@@ -60,73 +60,74 @@
 
         </div>
         
-        <div class="categorie">
+        <div class="menu__categorie">
             <h2><span class="underline">PLAT</span>S</h2>
-            <button class="menu_btn">
+            
+            <button class="menu__categorie-btn">
                 <h3>Noix de coquilles Saint-Jacques</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Sur lit de purée de céleri-rave</p>
                     <div class="price">40€</div>
                 </div>
             </button>
             
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Langoustine poêlée</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Purée de patate douce</p>
                     <div class="price">35€</div>
                 </div>
             </button>
 
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Mijoté de queue de boeuf</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Et riz sauvage aux zestes de citron</p>
                     <div class="price">44€</div>
                 </div>
             </button>
         </div>
         
-        <div class="categorie">
+        <div class="menu__categorie">
             <h2><span class="underline">DESS</span>ERTS</h2>
             
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Macaron noisette et chocolat</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Glace au caramel brun et sel de Guérande</p>
                     <div class="price">18€</div>
                 </div>
             </button>
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Baba au rhum revisité</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Avec son coulis de citron</p>
                     <div class="price">22€</div>
                 </div>
             </button>
-            <button class="menu_btn">
+            <button class="menu__categorie-btn">
                 <h3>Tarte au citron meringuée</h3>
-                <div class="sub_txt">
+                <div class="menu__categorie-btn__txt">
                     <p class="ingredients">Déstructurée</p>
                     <div class="price">23€</div>
                 </div>
             </button>
         </div>
         
-        <div class="command"><button class="pink_btn ">Commander</button></div>
+        <div class="menu__command"><button class="pink_btn ">Commander</button></div>
         
     </section>
     
 </body>
 
 
-<footer>
-    <div><h2>ohmyfood</h2></div>
+<footer class="footer">
+    <h2>ohmyfood</h2>
     
-    <a href="#"><div class="footer_icon"><i class="fa-solid fa-utensils"></i></div><p>Proposer un restaurant</p></a> 
+    <a href="#"><div class="footer__icon"><i class="fa-solid fa-utensils"></i></div><p>Proposer un restaurant</p></a> 
     
     
-    <a href="#"><div class="footer_icon"><i class="fa-solid fa-handshake-angle"></i></div><p>Devenir partenaire</p></a>
+    <a href="#"><div class="footer__icon"><i class="fa-solid fa-handshake-angle"></i></div><p>Devenir partenaire</p></a>
     
     <a href="#">Mentions légales</a>
     
